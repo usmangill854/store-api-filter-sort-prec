@@ -2,8 +2,9 @@
 //async errors
 
 const express = require('express')
-const mongoose = require('mongoose')
 const connectDB = require('./db/connect')
+// require('express-async-wrapper')
+
 const app= express()
 const productsRouter = require('./routes/products')
 
