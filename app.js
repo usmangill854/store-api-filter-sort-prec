@@ -1,4 +1,4 @@
-// require('dotenv').config()
+// const MONGO_URI=require('dotenv').config()
 //async errors
 
 const express = require('express')
